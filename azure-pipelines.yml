@@ -1,6 +1,14 @@
 # Starter pipeline
 - task: netsparker-cloud@1
   inputs:
+    apiConnection: 'ali_test'
+    scanTypes: '1'
+    scanWebSites: '024a964a-44d2-4f8e-197c-ae50042dbc1e'
+    buildFail: true
+    isConfirmed: true
+    ignoreFalsePositive: true
+- task: netsparker-cloud@1
+  inputs:
     apiConnection: 'new_test'
     scanTypes: '1'
     scanWebSites: '07b11c36-e205-4d5b-d72a-ae50042bde37'
