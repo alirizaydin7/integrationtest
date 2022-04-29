@@ -1,4 +1,13 @@
 # Starter pipeline
+- task: netsparker-cloud@1
+  inputs:
+    apiConnection: 'new_test'
+    scanTypes: '1'
+    scanWebSites: '07b11c36-e205-4d5b-d72a-ae50042bde37'
+    hasReport: true
+    reportType: 'ScanDetail'
+    onlyUnconfirmedIssues: true
+    excludeAddressedIssues: true
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
