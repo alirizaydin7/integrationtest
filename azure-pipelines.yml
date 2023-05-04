@@ -12,9 +12,9 @@ steps:
         $MinimumSeverity = 'Critical'
         $CancelScan = $true
         $BaseUrl = 'https://www.netsparkercloud.com' 
-        $WebsiteId ='07b11c36-e205-4d5b-d72a-ae50042bde37'
+        $WebsiteId ='b09b9300-356e-4587-94e6-ae50042d0433'
         $ScanType = 'Incremental'
-        $ProfileId = 'e21d0006-17d3-4fec-ae7e-aee8023a00d1'
+        $ProfileId = '6ea8e2b3-b146-47fa-ac20-ae5102b4497b'
         $IntegrationSystem = 'AzureDevOps'
 
         $FalsePositive=$false
